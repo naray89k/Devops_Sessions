@@ -1,0 +1,71 @@
+terraform version
+terraform --version
+terraform --help
+terraform console
+terraform console
+terraform console
+terraform init
+terraform console
+terraform fmt vars.tf
+terraform fmt vars.tf
+terraform console
+terraform init
+terraform fmt data.tf
+terraform fmt instance.tf
+terraform fmt output.tf
+terraform fmt provider.tf
+terraform fmt variables.tfvars
+terraform fmt vars.tf
+terraform validate
+terraform init
+terraform validate
+terraform plan -var-file variables.tfvars -out terraform.out
+terraform plan -vars-file variables.tfvars -out terraform.out
+terraform plan -var-file variables.tfvars
+terraform plan -var-file variables.tfvars -out terraform.out
+terraform init
+terraform plan -var-file variables.tfvars -out terraform.out
+terraform show terraform.out
+terraform apply terraform.out
+terraform init
+terraform validate
+terraform plan -var-file variables.tfvars -out terraform.plan
+terraform init
+terraform validate
+terraform plan -var-file variables.tfvars -out terraform.plan
+terraform init
+terraform validate
+terraform plan -var-file variables.tfvars
+terraform plan -var-file variables.tfvars -out terraform_plan.out
+terraform apply "terraform_plan.out"
+terraform output
+terraform state list
+terraform state show
+terraform state show data.aws_ami.ubuntu
+terraform state show aws_instance.example
+terraform state show aws_instance.example
+terraform destroy
+terraform destroy -var-file variables.tfvars
+terraform plan -var-file variables.tfvars -out terraform_plan.out
+terraform apply -var-file variables.tfvars
+terraform plan -var-file variables.tfvars -out terraform_plan.out
+terraform apply "terraform_plan.out"
+terraform taint aws_instance.example
+terraform apply "terraform_plan.out"
+terraform untaint aws_instance.example
+terraform taint aws_instance.example
+terraform state list
+terraform state show aws_instance.example
+terraform apply "terraform_plan.out"
+terraform apply --help
+terraform untaint aws_instance.example
+terraform apply "terraform_plan.out"
+terraform state pull
+terraform plan -var-file variables.tfvars -out terraform_plan.out
+terraform apply -refresh-only
+terraform apply -refresh-only "terraform_plan.out"
+terraform taint aws_instance.example
+terraform plan -var-file variables.tfvars -out terraform_plan.out
+terraform apply "terraform_plan.out"
+terraform state list
+terraform state show aws_instance.example
